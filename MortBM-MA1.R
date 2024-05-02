@@ -28,7 +28,7 @@ list_pathogens_other <- c(
 pathogen <- "sp" # choose pathogen from: "sp", "nm", "hib"  "ec"  "gbs"  "lm"  ("na" = all)
 
 ## Read file ===================================================================
-setwd("G:/divd/neu/mening/Fabian/MortBM-MA/5 Manuscript/Submission/github")
+setwd("~/MortBM-MA")
 data <- read_rds(paste0("data_", pathogen, ".RDS"))
 data_merge <- read_rds(paste0("data_merge_", pathogen, ".RDS"))
 
